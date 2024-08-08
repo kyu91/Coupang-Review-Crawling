@@ -60,5 +60,5 @@ $ python3 main.py
 ***
 
 > ## 해당 프로그램을 상업적인 목적으로 이용하여 생기는 불이익은 프로그램 사용자에게 있습니다
-# Coupang-Review-Crawling
-# Coupang-Review-Crawling
+
+> ## 출처 : https://github.com/JaehyoJJAng/Coupang-Review-Crawling
