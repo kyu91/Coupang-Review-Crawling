@@ -179,7 +179,7 @@ class OpenPyXL:
                 row += 1
 
         savePath : str = os.path.abspath('쿠팡-상품리뷰-크롤링')
-        fileName : str = results[0][0]['prod_name'] + '.xlsx'
+        fileName : str = re.sub(r'[\/\\]', '', results[0][0]['prod_name']) + '.xlsx'
 
         if not os.path.exists(savePath):
             os.mkdir(savePath)
